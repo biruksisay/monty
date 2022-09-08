@@ -24,7 +24,6 @@ int start_vars(vars *var)
 instruction_t *create_instru()
 {
 	instruction_t *ptr = malloc(sizeof(instruction_t) * 18);
-	
 	if (!ptr)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
